@@ -1,0 +1,23 @@
+{
+  "name": "wdio-test",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/register": "^7.23.7",
+    "@faker-js/faker": "^8.4.1",
+    "@wdio/allure-reporter": "^8.32.2",
+    "@wdio/browserstack-service": "^8.32.3",
+    "@wdio/cli": "^8.32.3",
+    "@wdio/local-runner": "^8.32.3",
+    "@wdio/mocha-framework": "^8.32.3",
+    "@wdio/spec-reporter": "^8.32.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-wdio": "^8.24.12"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "browserstack": "wdio run ./browserstack.conf.js"
+  }
+}
